@@ -1,0 +1,287 @@
+#home {
+	position: absolute;
+	top:0;
+    left:0;
+    bottom:0;
+    right:0;
+	height:100%;
+	width:100%;
+	background-image: linear-gradient(#42cbf4, #f4c842);
+}
+
+#intro-container {
+	position: relative;
+	top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height:65%;
+	width:100%;
+}
+
+#name {
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	top: 20px;
+	left:0;
+	right:0;
+	width: 50%;
+	height: 15%;
+	text-align: center;
+}
+
+#nametype {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	left: 0;
+	right:0;
+	font-family: 'Indie Flower', cursive;
+	font-size: 27pt;
+	top: 0;
+}
+
+#picture {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 115px;
+	width: 300px;
+	height: 300px;
+	background-image:url("img/fb.jpg");
+	background-color:#cccccc;
+	border-radius: 25px;
+}
+
+#button-container {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20pt;
+	position: absolute;
+	top:65%;
+    left:0;
+    bottom:0;
+    right:0;
+    height: 35%;
+}
+
+#button1 {
+	position: absolute;
+	left: 20px;
+	top: 10%;
+	width: 200px;
+	height: 200px;
+	background: #f4a341;
+	text-align: center;
+	-webkit-transition: opacity 0.75s ease-in-out;
+	-moz-transition: opacity 0.75s ease-in-out;
+	-o-transition: opacity 0.75s ease-in-out;
+	transition: opacity 0.75s ease-in-out;	border-radius:20px;
+}
+
+#button2 {
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	background:#f4a341;
+	left:0;
+	right:0;
+	top: 10%;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	-webkit-transition: opacity 0.75s ease-in-out;
+	-moz-transition: opacity 0.75s ease-in-out;
+	-o-transition: opacity 0.75s ease-in-out;
+	transition: opacity 0.75s ease-in-out;
+	border-radius:20px;
+}
+
+#button3 {
+	position:absolute;
+	right: 20px;
+	top: 10%;
+	width: 200px;
+	height: 200px;
+	background: #f4a341;
+	text-align: center;
+	-webkit-transition: opacity 0.75s ease-in-out;
+	-moz-transition: opacity 0.75s ease-in-out;
+	-o-transition: opacity 0.75s ease-in-out;
+	transition: opacity 0.75s ease-in-out;
+	border-radius:20px;
+}
+
+#button1 p {
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	top: 30%;
+}
+
+#button2 p {
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	top: 30%;
+}
+
+#button3 p {
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	top: 30%;
+}
+
+#backimage1 {
+	position: absolute;
+	left: 20px;
+	top: 10%;
+	width: 200px;
+	height: 200px;
+	background-image: url("img/ow.jpg");
+	background-color:#cccccc;
+	text-align: center;
+	border-radius:25px;
+}
+
+#backimage1 p {
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	top: 30%;
+}
+
+#button1:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#backimage2 {
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	top: 10%;
+	width: 200px;
+	height: 200px;
+	background-image: url("img/code.jpg");
+	background-color:#cccccc;
+	text-align: center;
+	border-radius:25px;
+}
+
+#backimage2 p {
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	top: 30%;
+}
+
+#button2:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#backimage3 {
+	position: absolute;
+	right: 20px;
+	top: 10%;
+	width: 200px;
+	height: 200px;
+	background-image: url("img/phone.jpg");
+	background-color:#cccccc;
+	text-align: center;
+	border-radius:25px;
+}
+
+#backimage3 p {
+	position: absolute;
+	right:20px;
+	top:10%;
+	left:0;
+	right:0;
+	top: 30%;
+}
+
+#button3:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#about {
+	position: absolute;
+	display:none;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(#f9b0fc, #fcf4b0);
+}
+
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+	cursor: pointer;
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+#projects {
+	position: absolute;
+	display:none;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(#aaffe1, #f7aaaa);
+}
+
+#contact {
+	position: absolute;
+	display:none;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(#b0fcf3, #fccbb0);
+}
