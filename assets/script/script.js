@@ -18,11 +18,44 @@ $(document).ready(function(){
 		$('#button-container').addClass('.clicked') 
 	});
 	$('.close').click(function() {
-		if ($('#button-container').hasClass('.clicked')) { //jQuery Function Number 4
+		if ($('#projects').hasClass('.clicked')) {
+			$('#pview1').fadeOut('slow');
+			$('#pview2').fadeOut('slow');
+			$('#pview3').fadeOut('slow');
+			$('#pview4').fadeOut('slow');
+			$('#pview5').fadeOut('slow');
+			$('#pview6').fadeOut('slow');
+			$('#projects').removeClass('.clicked');
+		} 
+		else if ($('#button-container').hasClass('.clicked')) { //jQuery Function Number 4
 			$('#about').fadeOut('slow'); //jQuery Function Number 5
 			$('#projects').fadeOut('slow');
 			$('#contact').fadeOut('slow');
 			$('#button-container').removeClass('.clicked') //jQuery Function Number 6
-		} 
+		}
 	});
+	$('#project1').click(function() {
+		$('#pview1').fadeIn('slow');
+		$('#projects').addClass('.clicked');
+	})
+	$('#project2').click(function() {
+		$('#pview2').fadeIn('slow');
+		$('#projects').addClass('.clicked');
+	})
+	$('#project3').click(function() {
+		$('#pview3').fadeIn('slow');
+		$('#projects').addClass('.clicked');
+	})
+	$('#project4').click(function() {
+		$('#pview4').fadeIn('slow');
+		$('#projects').addClass('.clicked');
+	})
+	$('#project5').click(function() {
+		$('#pview5').fadeIn('slow');
+		$('#projects').addClass('.clicked');
+	})
+	$('#project6').click(function() {
+		$('#pview6').fadeIn('slow');
+		$('#projects').addClass('.clicked');
+	})
 });

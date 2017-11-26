@@ -285,3 +285,165 @@
 	width: 100%;
 	background-image: linear-gradient(#b0fcf3, #fccbb0);
 }
+
+#projects p{
+	font-family: 'Indie Flower', cursive;
+	font-size: 20pt;
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	top: 15px;
+	text-align: center;
+}
+
+.project {
+	height: 200px;
+	width: 200px;
+	background: orange;
+	border-radius: 25px;
+	-webkit-transition: opacity 0.75s ease-in-out;
+	-moz-transition: opacity 0.75s ease-in-out;
+	-o-transition: opacity 0.75s ease-in-out;
+	transition: opacity 0.75s ease-in-out;
+	text-align: center;
+}
+
+.project p {
+	font-family: 'Indie Flower', cursive;
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	top: 30%;
+}
+
+#project1 {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+#project2 {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 100px;
+}
+
+#project3 {
+	position: absolute;
+	top: 100px;
+	right: 50px;
+}
+
+#project4 {
+	position: absolute;
+	top: 400px;
+	left: 50px;
+}
+
+#project5 {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 400px;
+}
+
+#project6 {
+	position: absolute;
+	top: 400px;
+	right: 50px;
+}
+
+.backimage {
+	height: 200px;
+	width: 200px;
+	border-radius: 25px;
+	background-image: url("img/smile.jpg");
+	text-align: center;
+}
+
+.backimage p {
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	top: 30%;
+}
+
+#back1 {
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+
+#back2 {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 100px;
+}
+
+#back3 {
+	position: absolute;
+	top: 100px;
+	right: 50px;
+}
+
+#back4 {
+	position: absolute;
+	top: 400px;
+	left: 50px;
+}
+
+#back5 {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 400px;
+}
+
+#back6 {
+	position: absolute;
+	top: 400px;
+	right: 50px;
+}
+
+.project:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.project p {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20pt;
+}
+
+.backimage p {
+	font-family: 'Indie Flower', cursive;
+	font-size: 20pt;
+}
+
+.projectview {
+	position: absolute;
+	display:none;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(#b0fcf3, #fccbb0);
+}
