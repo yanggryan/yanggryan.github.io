@@ -148,7 +148,7 @@
 	top: 10%;
 	width: 200px;
 	height: 200px;
-	background-image: url("img/ow.jpg");
+	background-image: url("img/ucb.jpg");
 	background-color:#cccccc;
 	text-align: center;
 	border-radius:25px;
@@ -301,13 +301,16 @@
 .project {
 	height: 200px;
 	width: 200px;
-	background: orange;
 	border-radius: 25px;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-moz-transition: opacity 0.75s ease-in-out;
 	-o-transition: opacity 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out;
 	text-align: center;
+}
+
+#projects .project {
+	background: orange;
 }
 
 .project p {
@@ -366,8 +369,11 @@
 	height: 200px;
 	width: 200px;
 	border-radius: 25px;
-	background-image: url("img/smile.jpg");
 	text-align: center;
+}
+
+#projects .backimage {
+	background-image: url("img/smile.jpg");
 }
 
 .backimage p {
@@ -446,4 +452,168 @@
 	height: 100%;
 	width: 100%;
 	background-image: linear-gradient(#b0fcf3, #fccbb0);
+}
+
+#about h1 {
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 50pt;
+}
+
+#about p {
+	font-family: 'Indie Flower', cursive;
+	font-size: 25pt;
+}
+
+input[type=text], textarea {
+	width: 50%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+}
+
+#firstname {
+	position: absolute;
+	top: 10px;
+	width: 500px;
+}
+
+#firstinput {
+	position:absolute;
+	top: 40px;
+	width: 500px;
+	left: auto;
+}
+
+#lastname {
+	position: absolute;
+	top: 120px;
+	width: 500px;
+}
+
+#lastinput {
+	position: absolute;
+	top: 150px;
+	width: 500px;
+}
+
+#message {
+	position: absolute;
+	top: 230px;
+	width: 500px;
+}
+
+#msginput {
+	position: absolute;
+	top: 250px;
+	width: 500px;
+	height: 250px;
+}
+
+#submit {
+	position:absolute;
+	top: 520px;
+}
+input[type=submit] {
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+.contact-container {
+	font-family: 'Indie Flower', cursive;
+    border-radius: 5px;
+    padding: 20px;
+    position: absolute;
+    top: 15%;
+}
+
+.verticalLine {
+	border-left: thick solid black;
+	position: absolute;
+	right: 0;
+	height: 90%;
+	width: 50%;
+	top: 5%;
+}
+
+#msghead {
+	font-family: 'Indie Flower', cursive;
+	position: absolute;
+	left: 0;
+	width: 50%;
+	text-align: center;
+}
+
+#media {
+	font-family: 'Indie Flower', cursive;
+	position: absolute;
+	right: 0;
+	width: 50%;
+	text-align: center;
+}
+
+#media-container {
+	position: absolute;
+	width: 50%;
+	right: 0;
+	top: 15%;
+	height: 80%;
+}
+
+#fb {
+	position: absolute;
+	top: 0;
+	background: orange;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#tw {
+	position: absolute;
+	top: 320px;
+	background: orange;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#fbback {
+	position: absolute;
+	top: 0;
+	background-image: url("img/fb_icon.jpg");
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#twback {
+	position: absolute;
+	top: 320px;
+	background-image: url("img/tw.jpg");
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#media-container p {
+	position:absolute;
+	text-align: center;
+	top: 50px;
 }

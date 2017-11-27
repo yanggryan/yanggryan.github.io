@@ -37,25 +37,31 @@ $(document).ready(function(){
 	$('#project1').click(function() {
 		$('#pview1').fadeIn('slow');
 		$('#projects').addClass('.clicked');
-	})
+	});
 	$('#project2').click(function() {
 		$('#pview2').fadeIn('slow');
 		$('#projects').addClass('.clicked');
-	})
+	});
 	$('#project3').click(function() {
 		$('#pview3').fadeIn('slow');
 		$('#projects').addClass('.clicked');
-	})
+	});
 	$('#project4').click(function() {
 		$('#pview4').fadeIn('slow');
 		$('#projects').addClass('.clicked');
-	})
+	});
 	$('#project5').click(function() {
 		$('#pview5').fadeIn('slow');
 		$('#projects').addClass('.clicked');
-	})
+	});
 	$('#project6').click(function() {
 		$('#pview6').fadeIn('slow');
 		$('#projects').addClass('.clicked');
+	});
+	$('#fb').click(function() {
+		window.open('https://www.facebook.com');
+	});
+	$('#tw').click(function() {
+		window.open('https://www.twitter.com');
 	})
 });
